@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Slab:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+:root 
+{
+    --preto: #000000ff;
+    --cinzaEscuro: #66666eff;
+    --cinzaClaro: #9999a1ff;
+    --platina: #e6e6e9ff;
+    --branco: #f4f4f6ff;
+    --verdeEscuro: #004b23ff;
+    --verdeClaro: #008000ff;
+    --verdeClarinho: #38b000ff;
+    --fonteTitulo: "Kanit", sans-serif;
+    --fonteTexto: "Roboto Slab", serif;
+}
+
+body
+{
+    background-color: var(--preto);
+    font-family: var(--fonteTexto);
+    color: var(--branco);
+    height: 100vh;
+}
+
+header
+{
+    background-color: var(--platina);
+    text-align: center;
+}
+
+h1
+{
+    font-family: var(--fonteTitulo);
+    font-size: 2.5em;
+    color: var(--preto);
+    padding: 1.5rem 0;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 1.5rem;
+    margin: 0.2rem 1rem 0;
+}
