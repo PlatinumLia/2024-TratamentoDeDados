@@ -56,3 +56,25 @@ nav a
     font-size: 1.5rem;
     margin: 0.2rem 1rem 0;
 }
+
+nav a:hover
+{
+    text-decoration: underline;
+    color: var(--verdeClarinho);
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--platina);
+    color: var(--preto);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-family: var(--fonteTitulo);
+}
