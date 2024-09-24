@@ -1,0 +1,1 @@
+const url = "https://raw.githubusercontent.com/PlatinumLia/2024-API/refs/heads/main/manga.json?token=GHSAT0AAAAAACX62IIFSPIMVBZJOJQ6JMJYZXSZONQ"
