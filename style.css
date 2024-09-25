@@ -65,6 +65,24 @@ nav a:hover
     transition: transform 0.3s;
 }
 
+.caixa-grafico
+{
+    margin: 5rem;
+}
+
+.caixa-grafico__texto
+{
+    font-size: 1.2rem;
+    font-family: var(--fonteTitulo);
+    background-color: var(--branco);
+    color: var(--preto);
+    padding: 2rem;
+    border-radius: 12px;
+    border-style: double;
+    border-width: 10px;
+    border-color: var(--cinzaEscuro);
+}
+
 footer
 {
     display: flex;
