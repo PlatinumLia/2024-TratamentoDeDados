@@ -1,4 +1,4 @@
-const url = "https://raw.githubusercontent.com/PlatinumLia/2024-API/refs/heads/main/manga.json?token=GHSAT0AAAAAACYAYCHGHDUMOGWMWBQVWKYOZXUEXZA"
+const url = "https://raw.githubusercontent.com/PlatinumLia/2024-API/refs/heads/main/manga.json?token=GHSAT0AAAAAACYJX2COPWPN6DV4HK2YWUFGZX37CAQ";
 
 async function vizualizarInformacoes() 
 {
@@ -12,8 +12,8 @@ async function vizualizarInformacoes()
     paragrafo.classList.add("caixa-grafico__texto");
     paragrafo.innerHTML = `Em busca de saber os mangás mais lidos no mundo,
     foi realizada uma série de pesquisas de diferentes fontes. Com o auxílio
-    do ChatGPT, foi possível estimar que o mangá mais lido foi ${nomeDoManga}
-    com um total de aproximadamente um total de ${votosRecebidos} votos.`;
+    do ChatGPT, foi possível estimar que o mangá mais lido foi <span>${nomeDoManga}</span>
+    com um total de aproximadamente um total de <span>${votosRecebidos}</span> votos.`;
 
     const caixa = document.getElementById("caixa-grafico");
     caixa.appendChild(paragrafo);

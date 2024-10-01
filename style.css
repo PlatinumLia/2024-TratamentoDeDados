@@ -83,6 +83,13 @@ nav a:hover
     border-color: var(--cinzaEscuro);
 }
 
+span
+{
+    font-family: var(--fonteTitulo);
+    color: var(--verdeClarinho);
+    font-size: 20px;
+}
+
 footer
 {
     display: flex;
