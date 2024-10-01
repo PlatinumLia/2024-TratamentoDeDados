@@ -1,4 +1,4 @@
-const url = "https://raw.githubusercontent.com/PlatinumLia/2024-API/refs/heads/main/manga.json?token=GHSAT0AAAAAACYJX2COPWPN6DV4HK2YWUFGZX37CAQ";
+const url = "https://raw.githubusercontent.com/PlatinumLia/2024-API/refs/heads/main/manga.json?token=GHSAT0AAAAAACYJX2COEY33HRZYA4KF54YOZX4ANEQ";
 
 async function vizualizarInformacoes() 
 {
