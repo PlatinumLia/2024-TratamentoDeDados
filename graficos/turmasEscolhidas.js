@@ -6,16 +6,16 @@ async function mangasTancredo()
     
     const res = await fetch(url);
     const dados = await res.json();
-    const mangasVotados = dados.slice(1).map(mangas => mangas[1]);
-    const contagemMangas = mangasVotados.reduce((acc, mangasVotados) => 
+    const turmaEscolhida = dados.slice(1).map(turmas => turmas[1]);
+    const contagemTurmas = turmaEscolhida.reduce((acc, turmaEscolhida) => 
         {
-            acc[mangasVotados] = (acc[mangasVotados] || 0) + 1;
+            acc[turmaEscolhida] = (acc[turmaEscolhida] || 0) + 1;
             return acc;
         }, 
         {});
 
-    const valores = Object.values(contagemMangas);
-    const etiquetas = Object.keys(contagemMangas);    
+    const valores = Object.values(contagemTurmas);
+    const etiquetas = Object.keys(contagemTurmas);    
 
     const data =
     [
