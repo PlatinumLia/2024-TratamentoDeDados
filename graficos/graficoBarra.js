@@ -33,7 +33,7 @@ async function criaGrafico()
             {
                 color: pegarCSS("--preto"),
                 family: pegarCSS("--fonteTitulo"),
-                size: 50
+                size: 40
             }
         },
         xaxis:

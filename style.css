@@ -73,9 +73,14 @@ nav a:hover
     border-style: groove;
     border-width: 10px;
     border-color: var(--platina);
-    display: block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.caixa-grafico__titulo
+{
+    font-size: 2rem;
 }
 
 .caixa-grafico__texto

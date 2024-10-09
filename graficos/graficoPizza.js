@@ -24,19 +24,17 @@ async function criaGraficoPizza()
         height: 400,
         width: 600,
         plot_bgcolor: pegarCSS("--preto"),
-        paper_bgcolor: pegarCSS("--cinzaClaro"),
+        paper_bgcolor: pegarCSS("--preto"),
         font:
             {
                 color: pegarCSS("--branco"),
                 family: pegarCSS("--fonteTitulo"),
-                size: 12,
-            }
+            }     
     } 
 
     const tituloManga = document.createElement("h3");
     tituloManga.classList.add("caixa-grafico__titulo");
-    tituloManga.innerHTML = `Os <span>mangás</span>
-     mais lidos do mundo`;
+    tituloManga.innerHTML = `Os <span>mangás</span>mais lidos do mundo`;
 
     const grafico = document.createElement("div");
     grafico.className = "grafico-disco";
